@@ -15,10 +15,10 @@
 
     <header>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About me</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact me</a>
+            <a href="#home" class="nav_link active-link">Home</a>
+            <a href="#about" class="nav_link">About me</a>
+            <a href="#skills" class="nav_link">Skills</a>
+            <a href="#contact" class="nav_link">Contact me</a>
         </nav>
     </header>
 
@@ -33,13 +33,13 @@
                         <h3>FrontEnd Developer</h3>
                         <button class="blue-btn">Resume</button>
                         <div class="social-links">
-                            <i class="fa-solid fa-at"></i>
-                            <i class="fa-brands fa-github"></i>
-                            <i class="fa-brands fa-linkedin-in"></i>
+                            <a href="" class="home_social-icon"><i class="fa-solid fa-at"></i></a>
+                            <a href="" class="home_social-icon"><i class="fa-brands fa-github"></i></a>
+                            <a href="" class="home_social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
 
-                    <div class="head-img">
+                    <div class="home-img">
                         <img src="img/image.png" alt="">
                     </div>
                 </div>
@@ -126,9 +126,9 @@
             <h2 class="section-title">Contact</h2>
             <div class="contact_container container">
                 <form action="" class="contact-form">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <textarea name="" id=""></textarea>
+                    <input type="text" placeholder="Name" class="contact_input">
+                    <input type="email" placeholder="Email" class="contact_input">
+                    <textarea name="" id="" class="contact_input"></textarea>
                     <button type="submit" class="submit-btn">
                         Submit &nbsp;
                         <i class="fa-solid fa-paper-plane"></i>
@@ -149,6 +149,10 @@
         <p class="footer_copy">&copy;2025 Xursandbek Qalanadrov. Copyright all right reserved </p>
         </div>
     </footer>
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
