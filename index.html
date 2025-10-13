@@ -14,11 +14,17 @@
 <body>
 
     <header>
-        <nav>
-            <a href="#home" class="nav_link active-link">Home</a>
-            <a href="#about" class="nav_link">About me</a>
-            <a href="#skills" class="nav_link">Skills</a>
-            <a href="#contact" class="nav_link">Contact me</a>
+        <nav class="navbar">
+            <button class="nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav_link active-link">Home</a>
+                <a href="#about" class="nav_link">About me</a>
+                <a href="#skills" class="nav_link">Skills</a>
+                <a href="#contact" class="nav_link">Contact me</a>
+            </div>
         </nav>
     </header>
 
@@ -33,9 +39,12 @@
                         <h3>FrontEnd Developer</h3>
                         <button class="blue-btn">Resume</button>
                         <div class="social-links">
-                            <a href="mailto:xursandbek031@gmail.com" class="home_social-icon"><i class="fa-solid fa-at"></i></a>
-                            <a href="https://github.com/Xursandbek031" class="home_social-icon"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/xursandbek031/" class="home_social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="mailto:xursandbek031@gmail.com" class="home_social-icon"><i
+                                    class="fa-solid fa-at"></i></a>
+                            <a href="https://github.com/Xursandbek031" class="home_social-icon"><i
+                                    class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/xursandbek031/" class="home_social-icon"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
                         </div>
                     </div>
 
@@ -150,7 +159,7 @@
         </div>
     </footer>
 
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/main.js"></script>
 </body>
