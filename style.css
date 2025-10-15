@@ -329,7 +329,7 @@ header {
 }
 
 .css {
-    width: 85%;
+    width: 90%;
 }
 
 .js {
@@ -341,7 +341,7 @@ header {
 }
 
 .tcss {
-    width: 10%;
+    width: 80%;
 }
 
 /* contact */
@@ -493,7 +493,7 @@ header {
 
     .blue-btn {
         width: auto;
-        padding: 0.7rem 1.2rem;
+        padding: 0.4rem 1.2rem;
         font-size: 16px;
     }
 
